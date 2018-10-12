@@ -32,7 +32,7 @@ class Example extends Component {
 }
 ```
 
-## Example
+## Examples
 <img alt="Mezrmouse" src="https://image.ibb.co/kDgGB9/ezgif-4-c58b04b3e466.gif">
 
 ## License
