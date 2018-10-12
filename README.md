@@ -32,6 +32,9 @@ class Example extends Component {
 }
 ```
 
+## Example
+<img alt="Mezrmouse" src="https://image.ibb.co/kDgGB9/ezgif-4-c58b04b3e466.gif">
+
 ## License
 
 Mezrmouse is freely distributable under the terms of the [MIT license](https://github.com/moment/moment/blob/develop/LICENSE).
