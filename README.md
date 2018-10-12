@@ -26,7 +26,9 @@ import Measure from 'mezrmouse'
 class Example extends Component {
   render () {
     return (
-      <Measure distance={100} onCloseUp={(percent) => this.distance = percent} />
+      <Measure distance={100} onCloseUp={(percent) => this.distance = percent}>
+        <button>Click me</button>
+      </Measure>
     )
   }
 }
