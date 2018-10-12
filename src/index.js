@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export default class Mezrmouse extends React.Component {
   constructor(props) {
@@ -12,9 +13,9 @@ export default class Mezrmouse extends React.Component {
   }
 
   static propTypes = {
-    distance: React.PropTypes.number.isRequired,
-    onCloseUp: React.PropTypes.func,
-    children: React.PropTypes.node.isRequired
+    distance: PropTypes.number.isRequired,
+    onCloseUp: PropTypes.func,
+    children: PropTypes.node.isRequired
   };
 
   componentDidMount() {
