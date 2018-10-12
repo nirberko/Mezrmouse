@@ -17,7 +17,7 @@ npm install --save mezrmouse
 ```jsx
 import React, { Component } from 'react'
 
-import Distance from 'mezrmouse'
+import Measure from 'mezrmouse'
 
 class Example extends Component {
   render () {
