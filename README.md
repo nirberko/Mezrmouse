@@ -9,7 +9,7 @@
 ## Install
 
 ```bash
-npm install --save Mezrmouse
+npm install --save mezrmouse
 ```
 
 ## Usage
