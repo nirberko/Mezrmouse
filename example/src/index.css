@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant:400,700');
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: 'Assistant', sans-serif;
+}
