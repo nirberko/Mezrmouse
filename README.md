@@ -5,7 +5,6 @@
 Measure distance between your mouse and object to make an interactive user interface
 
 [![NPM](https://img.shields.io/npm/v/Mezrmouse.svg)](https://www.npmjs.com/package/Mezrmouse)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![MIT License][license-image]][license-url]
 [![Build Status][travis-image]][travis-url]
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNirBerko%2FMezrmouse.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNirBerko%2FMezrmouse?ref=badge_shield)
