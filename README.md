@@ -4,10 +4,31 @@
 
 Measure distance between your mouse and object to make an interactive user interface
 
-[![NPM](https://img.shields.io/npm/v/mezrmouse.svg)](https://www.npmjs.com/package/mezrmouse)
-[![MIT License][license-image]][license-url]
-[![Build Status][travis-image]][travis-url]
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FNirBerko%2FMezrmouse.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FNirBerko%2FMezrmouse?ref=badge_shield)
+<p align="center">
+  <a href="https://www.npmjs.com/package/mezrmouse">
+    <img alt= "NPM" src="https://img.shields.io/npm/v/mezrmouse.svg">
+  </a>
+  <a href="https://github.com/moment/moment/blob/develop/LICENSE">
+    <img alt= "MIT License" src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat">
+  </a>
+  <a href="https://standardjs.com">
+    <img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code_style-standard-brightgreen.svg">
+  </a>
+  <a href="https://travis-ci.org/NirBerko/Mezrmouse">
+    <img alt= "Build Status" src="https://travis-ci.org/NirBerko/Mezrmouse.svg?branch=master">
+  </a>
+  </a>
+  <a href="https://app.fossa.io/projects/git%2Bgithub.com%2FNirBerko%2FMezrmouse?ref=badge_shield">
+    <img alt= "FOSSA Status" src="https://app.fossa.io/api/projects/git%2Bgithub.com%2FNirBerko%2FMezrmouse.svg?type=shield">
+  </a>
+</p>
+
+<p align="center">
+  <img alt="Mezrmouse" src="https://image.ibb.co/hNaytp/carbon-1.png">
+</p>
+
+## Examples
+<img alt="Mezrmouse" src="https://image.ibb.co/kDgGB9/ezgif-4-c58b04b3e466.gif">
 
 ## Install
 
@@ -33,15 +54,14 @@ class Example extends Component {
 }
 ```
 
-## Examples
-<img alt="Mezrmouse" src="https://image.ibb.co/kDgGB9/ezgif-4-c58b04b3e466.gif">
+### Properties
+
+Property | Type | Required | Default value | Description
+:--- | :--- | :--- | :--- | :---
+`distance`|number|yes|| The distance the mouse will be from the node so onCloseUp (func) will trigger
+`onCloseUp`|func|no|| Triggered when the mouse is close to the node - retunes distance by percentages
+-----
 
 ## License
 
 Mezrmouse is freely distributable under the terms of the [MIT license](https://github.com/moment/moment/blob/develop/LICENSE).
-
-[license-image]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
-[license-url]: LICENSE
-
-[travis-url]: https://travis-ci.org/NirBerko/Mezrmouse
-[travis-image]: https://travis-ci.org/NirBerko/Mezrmouse.svg?branch=master
