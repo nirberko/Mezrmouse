@@ -28,6 +28,7 @@ Measure distance between your mouse and object to make an interactive user inter
 </p>
 
 ## Examples
+### [Demo](https://nirberko.github.io/Mezrmouse/)
 <img alt="Mezrmouse" src="https://image.ibb.co/kDgGB9/ezgif-4-c58b04b3e466.gif">
 
 ## Install
