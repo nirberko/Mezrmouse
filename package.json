@@ -1,6 +1,6 @@
 {
   "name": "mezrmouse",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "measure distance between your mouse and object to make an interactive user interface",
   "author": "NirBerko",
   "license": "MIT",
