@@ -29,7 +29,7 @@ export default class App extends Component {
             </label>
             <label>
               <span>Last Name *</span>
-              <input value='Berko' />
+              <input defaultValue='Berko' />
             </label>
             <label>
               <span>Email Address *</span>
@@ -38,11 +38,11 @@ export default class App extends Component {
             </label>
             <label>
               <span>Phone Number</span>
-              <input value='202-555-1243' />
+              <input defaultValue='202-555-1243' />
             </label>
             <label style={{gridColumn: '2 span'}}>
               <span>Company Name</span>
-              <input value='Electronics' />
+              <input defaultValue='Electronics' />
             </label>
             <div className='actions'>
               <Measure distance={100} onCloseUp={(percent) => this.setState({distance: percent})}>
