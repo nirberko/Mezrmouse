@@ -24,7 +24,7 @@ Measure distance between your mouse and object to make an interactive user inter
 </p>
 
 <p align="center">
-  <img alt="Mezrmouse" src="https://image.ibb.co/hNaytp/carbon-1.png">
+  <img alt="Mezrmouse" src="https://image.ibb.co/f7G3b9/carbon-2.png">
 </p>
 
 ## Examples
@@ -47,7 +47,7 @@ import Measure from 'mezrmouse'
 class Example extends Component {
   render () {
     return (
-      <Measure distance={100} onCloseUp={(percent) => this.distance = percent}>
+      <Measure distance={100} onCloseUp={(distance) => this.distance = distance}>
         <button>Click me</button>
       </Measure>
     )
